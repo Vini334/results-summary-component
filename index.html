@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <div class="results">
+        <h3 class="result-title">Your Result</h3>
+        <div class="score">
+          <h1 class="points">76</h1>
+          <h3 class="max-points">of 100</h3>
+        </div>
+        <h2 class="description-title">Great</h2>
+        <p class="description">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="summary">
+        <h3 class="summary-title">Summary</h3>
+
+        <ul class="list">
+
+          <li class="abilities first">
+            <img src="./assets/images/icon-reaction.svg" alt="Reaction icon">
+            <p class="abilities-name">Reaction</p>
+            <p class="abilities-points">
+               80 <span id="strong">/ 100</span>
+            </p>
+          </li>
+
+          <li class="abilities second">
+            <img src="./assets/images/icon-memory.svg" alt="Memory icon">
+            <p class="abilities-name">Memory</p>
+            <p class="abilities-points">
+               92 <span id="strong">/ 100</span>
+            </p>
+          </li>
+
+          <li class="abilities thrid">
+            <img src="./assets/images/icon-verbal.svg" alt="Verbal icon">
+            <p class="abilities-name">Verbal</p>
+            <p class="abilities-points">
+               61 <span id="strong">/ 100</span>
+            </p>
+          </li>
+
+          <li class="abilities fourth">
+            <img src="./assets/images/icon-visual.svg" alt="Visual icon">
+            <p class="abilities-name">Visual</p>
+            <p class="abilities-points">
+               72 <span id="strong">/ 100</span>
+            </p>
+          </li>
+
+        </ul>
+
+        <button class="btn">Continue</button>
+
+      </div>
+    </section>
+  </main>
+</body>
+</html>
